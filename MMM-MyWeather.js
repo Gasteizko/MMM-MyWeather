@@ -355,7 +355,7 @@ Module.register("MMM-MyWeather", {
       header.classList.add("module-header");
       header.innerHTML = this.config.forecasttableheadertext;
 	  
-      if (this.config.layout == "horizontal") {
+      if (this.config.layout == "vertical") {
 		wrapper.appendChild(header);
 	  }
 
