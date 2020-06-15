@@ -354,7 +354,10 @@ Module.register("MMM-MyWeather", {
       var header = document.createElement("header");
       header.classList.add("module-header");
       header.innerHTML = this.config.forecasttableheadertext;
-      wrapper.appendChild(header);
+	  
+      if (this.config.layout == "horizontal") {
+		wrapper.appendChild(header);
+	  }
 
 
       var table = document.createElement("table");
