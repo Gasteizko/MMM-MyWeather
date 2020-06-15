@@ -57,7 +57,7 @@ Module.register("MMM-MyWeather", {
 		socknot: "GET_WEATHERBIT",
 		sockrcv: "WEATHERBIT",
     enableCompliments: 0,
-    itemsPerRow: 4,
+    itemsPerRow: 7, // Originally was 4
 
     retryDelay: 2500,
 
